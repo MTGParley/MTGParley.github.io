@@ -1,0 +1,174 @@
+<html>
+<head>
+	<meta content="text/html; charset=ISO-8859-1"
+	http-equiv="content-type">
+	<title>MtG Parley</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<style>
+
+   html {
+  	width: 470px;
+  	height: 725px;
+  }
+  #regularText {
+  	position: absolute;
+  	left: 150px;
+  	top: 75px;
+  	width: 70%;
+  }
+  #mobileText {
+  	position: absolute;
+
+  	left: 30px;
+  	top: 7px;
+  	width: 80%;
+
+  }
+  #left {
+  	width: 300px;
+  	height: 700px;
+
+  }
+  #right {
+     position: absolute;
+  	 width: 300px;
+  	 height: 700px;
+     right: 10px;
+     z-index: -1;
+  }
+  #title {
+    position: absolute;
+    top: 10px;
+    left: 31%;
+    width: 330px;
+    height: 90px;
+
+  }
+#rules {
+	position: relative;
+    left:20px;
+}
+  #rightP {
+        position: absolute;
+    width: 75%;
+    left:30px;
+  }
+  #cross {
+        position: absolute;
+        top: 610px;
+        left: 48%;
+
+        width: 30px;
+        height: 30px;
+  }
+@media screen and (max-width: 600px) {
+     #right{
+	visibility: hidden !important;
+     }
+     .mobile-hide {
+	   visibility: hidden !important;
+	    display: none;
+	}
+     .mobile-show {
+	     display: block;
+	}
+
+}
+	@media screen and (min-width: 600px) {
+		.mobile-show {
+		visibility: hidden !important;
+
+	     display: none;
+	}
+	}
+
+
+  body {
+        min-width: 300px;
+
+  	background-color: #f1e2c1;
+  }
+</style>
+<body  link="#000000" vlink="#808080" alink="#FF0000">
+  <img class="mobile-hide" id="title" src="images/title.jpg">
+ 	<img class="mobile-hide" id="left" src="images/left.jpg">
+ 	<img class="mobile-hide" id="right" src="images/right.jpg">
+ 	<div class="mobile-hide" id="regularText">
+		<p >
+       <br>
+			Parley is a constructed Magic format where <i>every</i> card is playable. <br>
+      <br>
+			Parley uses <a href="http://magic.wizards.com/en/game-info/gameplay/formats/vintage">Vintage Magic Rules</a> plus the rules:
+			<br>
+			<p id="rules" >
+				Players begin the game at peace.  At any time a player may propose to end the peace, if all players agree, then the peace is ended.
+
+ 				<br><br>
+
+				If a player leaves the game during peace, then all players earn 0 game points for that game. Otherwise, players earn 3 game points for a win, 1 game point for a draw, and 0 game points for a loss.
+
+				<br><br>
+
+				Players may examine their opponent's deck before each game.
+
+
+			</p>
+		</p>
+	<!--
+    <p class="mobile-hide" id="rightP">
+           <br>
+      <h><b>Game Strategy</b></h>
+      <br>
+      <br>
+
+      Copying a netdeck won't help you. Mana screw and raw card power don't matter since no player can win until all players agree to end parley.
+      <br>
+      <br>
+      To win you want to create a board that appears balanced, but in reality gives you the edge.
+      <br>
+      <br>
+      Playing with cards that are obscure or hard to evaluate will trick opponents into thinking that they are safe. Once they feel safe enough to decline to parley you can win with a suprise combo or by simply outplaying them.
+
+    </p>-->
+	</div>
+	<div class="mobile-show" id="mobileText" >
+		<p >
+       <br>
+			Parley is a constructed Magic format where <i>every</i> card is playable. <br>
+      <br>
+			Parley uses <a href="http://magic.wizards.com/en/game-info/gameplay/formats/vintage">Vintage Magic Rules</a> plus the rules:
+			<br>
+			<p id="rules" >
+				Players begin the game at peace.  At any time a player may propose to end the peace, if all players accept, then the peace is ended.
+
+ 				<br><br>
+
+				If a player leaves the game during peace, then all players earn 0 game points for that game. Otherwise, players earn 3 game points for a win, 1 game point for a draw, and 0 game points for a loss.
+
+				<br><br>
+
+				Players may examine their opponent's deck before each game.
+
+		</p>
+	<!--
+    <p class="mobile-hide" id="rightP">
+           <br>
+      <h><b>Game Strategy</b></h>
+      <br>
+      <br>
+
+      Copying a netdeck won't help you. Mana screw and raw card power don't matter since no player can win until all players agree to end parley.
+      <br>
+      <br>
+      To win you want to create a board that appears balanced, but in reality gives you the edge.
+      <br>
+      <br>
+      Playing with cards that are obscure or hard to evaluate will trick opponents into thinking that they are safe. Once they feel safe enough to decline to parley you can win with a suprise combo or by simply outplaying them.
+
+    </p>-->
+	</div>
+  <img class="mobile-hide" id="cross" src="images/cross.jpg">
+
+</body>
+</html>
