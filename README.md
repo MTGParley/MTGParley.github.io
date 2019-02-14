@@ -1,4 +1,1 @@
-# MtGParley.github.io
-Offical MtG Parley Rules
-# MTGPARLEY
-# MTGParley
+I changed it all
